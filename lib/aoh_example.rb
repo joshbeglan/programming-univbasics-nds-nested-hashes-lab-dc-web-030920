@@ -29,7 +29,6 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   
   aoh[row][key] = new_value
-  updated = aoh[row][key]
   
-  return updated
+  aoh
 end
